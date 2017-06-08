@@ -65,7 +65,7 @@ l = (1,2,3,4, "patate", 22, 46.54, "chausson aux pommes")
 print(type(l))
 print(l[4])
 print(len(l))
-# attention : list commence à 0 ; len donne la taille de la liste
+# attention : list commence a 0 ; len donne la taille de la liste
 for i in range(0,len(l)):
     print(l[i])
 

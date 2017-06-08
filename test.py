@@ -1,7 +1,18 @@
+import math as m
+import sklearn
+
 first_words = "hello world!"
 print(first_words)
 Rosalind = "http://rosalind.info/problems/list-view/"
 personne = "mon doudou"
 software = "Eclipse"
-for x in range(1, 11):
-    print('je montre a {0} pour la {2} fois comment marche {1}'.format(personne, software, x))
+
+a = 2
+
+b = 3 
+
+print (m.asin(a/b))
+
+def calculesinus(a,b):
+    p=a/b
+    return asin(p)
